@@ -2,61 +2,73 @@
 <html lang="et">
 <head>
     <meta charset="UTF-8">
-    <title>Kõige lahedam veebileht</title>
+    <title>Miks karud vajavad talveund</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Miks karud vajavad talveund</h1>
+
+    <h1 id="main-title">Miks karud vajavad talveund</h1>
     
-    <p>See veebileht tutvustab karude talveune põhjuseid ja miks see tähtis on.</p>
+    <p class="intro-text">See veebileht tutvustab karude talveune põhjuseid ja olulisust nende ellujäämise jaoks. Lugeja saab siit teada, kuidas ja miks karud talveuneks valmistuvad.</p>
     
     <br>
     
-    <a href="https://en.wikipedia.org/wiki/Bear" target="_blank">Loe rohkem karude kohta.</a>
+    <a href="https://en.wikipedia.org/wiki/Bear" target="_blank" class="link">Loe rohkem karude kohta</a>
     
     <br><br>
     
-    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.elephango.com%2F_userimages%2Fbear-11571.jpg&f=1&nofb=1&ipt=77fd912695fb3822271a2de878ff44db661e5c5b24bde9620c37a9bd618fccb0&ipo=images" alt="Karud talveunes" width="400">
+    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.elephango.com%2F_userimages%2Fbear-11571.jpg&f=1&nofb=1&ipt=77fd912695fb3822271a2de878ff44db661e5c5b24bde9620c37a9bd618fccb0&ipo=images" alt="Karud talveunes" class="bear-image">
 
-    <h2>Talveune tähtsuse põhipunktid</h2>
+    <div class="two-column-layout">
+        <div class="column">
+            <h2>Talveune tähtsuse põhipunktid</h2>
 
-    <ul>
-        <li>Energia säästmine
             <ul>
-                <li>Aeglustunud ainevahetus</li>
-                <li>Väiksem energiakulu</li>
+                <li>Energia säästmine
+                    <ul>
+                        <li>Aeglustunud ainevahetus</li>
+                        <li>Väiksem energiakulu</li>
+                    </ul>
+                </li>
+                <li>Ellujäämine külmal perioodil
+                    <ul>
+                        <li>Toidu vähene saadavus</li>
+                        <li>Kehatemperatuuri säilitamine</li>
+                    </ul>
+                </li>
             </ul>
-        </li>
-        <li>Ellujäämine külmal perioodil
-            <ul>
-                <li>Toidu vähene saadavus</li>
-                <li>Kehatemperatuuri säilitamine</li>
-            </ul>
-        </li>
-    </ul>
-    
-    <h2>Talveune kestus ja ettevalmistused</h2>
-    
-    <table border="1">
-        <tr>
-            <th>Karuliik</th>
-            <th>Talveune kestus</th>
-            <th>Ettevalmistuse meetodid</th>
-        </tr>
-        <tr>
-            <td>Prillkaru</td>
-            <td>3-4 kuud</td>
-            <td>Rasvavarude kogumine</td>
-        </tr>
-        <tr>
-            <td>Baribal</td>
-            <td>5-6 kuud</td>
-            <td>Pesapaiga ehitamine</td>
-        </tr>
-    </table>
+        </div>
+
+        <div class="column">
+            <h2>Talveune kestus ja ettevalmistused</h2>
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th>Karuliik</th>
+                        <th>Talveune kestus</th>
+                        <th>Ettevalmistuse meetodid</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Prillkaru</td>
+                        <td>3-4 kuud</td>
+                        <td>Rasvavarude kogumine</td>
+                    </tr>
+                    <tr>
+                        <td>Baribal</td>
+                        <td>5-6 kuud</td>
+                        <td>Pesapaiga ehitamine</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
     
     <br>
     
-    <a href="index2.html">Jätka lugemist</a>
+    <a href="index2.html">Jätka lugemist, et saada vastuseid oma küsimustele</a>
 
 </body>
 </html>
